@@ -12,7 +12,7 @@ import android.view.View;
 public class AboutUs extends AppCompatActivity {
 
     public void openUrl(View view) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/AynurFar/GoldZakat"));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/AynurFar/GoldZakat/tree/master"));
         startActivity(intent);
     }
 
