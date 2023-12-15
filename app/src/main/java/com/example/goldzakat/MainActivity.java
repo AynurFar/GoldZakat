@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (item.getItemId() == R.id.item_share) { //if user click share button
             Intent shareIntent = new Intent(Intent.ACTION_SEND);
             shareIntent.setType("text/plain");
-            shareIntent.putExtra(Intent.EXTRA_TEXT, "My Github - https://github.com/AynurFar/GoldZakat");
+            shareIntent.putExtra(Intent.EXTRA_TEXT, "My Github - https://github.com/AynurFar/GoldZakat/tree/master");
             startActivity(Intent.createChooser(shareIntent,null));
 
             return true;
