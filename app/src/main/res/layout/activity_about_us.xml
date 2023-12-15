@@ -57,7 +57,7 @@
         android:clickable="true"
         android:gravity="center"
         android:onClick="openUrl"
-        android:text="My GitHub: https://github.com/AynurFar/GoldZakat"
+        android:text="My GitHub: https://github.com/AynurFar/GoldZakat/tree/master"
         android:textColor="#000000"
         android:textColorLink="#2196F3"
         android:textSize="14sp"
